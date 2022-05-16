@@ -1,0 +1,22 @@
+[data-popover] {
+  cursor: pointer;
+}
+
+.popover {
+  position: absolute;
+  border: 1px solid #666666;
+  border-radius: 10px;
+}
+
+.popover>* {
+  padding: 10px;
+}
+
+.popover__title {
+  background-color: #bbbbbb;
+  border-radius: inherit;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 1px solid #666666;
+  font-weight: bold;
+}
